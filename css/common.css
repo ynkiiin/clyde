@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@700&family=Kaisei+Tokumin:wght@700&display=swap");
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fffdf8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header h1 {
+  background-color: #fffdf8;
+  text-align: center;
+  padding: 28px;
+  margin-bottom: 28px;
+}
+/* メニュー */
+nav {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #6a6a6a;
+  border-bottom: 2px solid #6a6a6a;
+  margin-bottom: 28px;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 253, 248, 0.9);
+  z-index: 1;
+}
+
+nav ul {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* メニューホバー */
+nav li a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+/* ホームの書式 */
+nav li.active a {
+  font-weight: bold;
+}
+p.visual {
+  padding-bottom: 67px;
+}
+main {
+  padding-bottom: 77px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+/* 大見出し */
+main article h1 {
+  color: #1d1502;
+  font-size: 40px;
+  font-weight: bold;
+  background-image: url(../img/since1.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 67px;
+  /* background-color: aqua; */
+  height: 117px;
+  padding: 11px;
+  font-family: "Kaisei HarunoUmi", serif;
+  font-family: "Kaisei Tokumin", serif;
+}
+main section h2 {
+  font-family: "Kaisei HarunoUmi", serif;
+  font-family: "Kaisei Tokumin", serif;
+}
+
+main aside p a:hover {
+  opacity: 0.7;
+}
+
+footer {
+  background: #322707;
+  padding-top: 42px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer section {
+  background: #5f4e1c;
+  text-align: center;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+footer section p {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+footer p.theclyde {
+  padding-top: 30px;
+}
+
+footer address {
+  color: #fffdf8;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+footer p.copy {
+  background: #000;
+  color: #fffdf8;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* 固定位置 */
+footer p.pagetop {
+  position: fixed;
+  right: 34px;
+  bottom: 34px;
+}
+
+/* ホバー */
+footer p.pagetop a:hover {
+  opacity: 0.7;
+}
+
+/* レスポンシブ */
+@media (max-width: 767px) {
+  nav {
+    position: unset;
+  }
+  nav ul {
+    display: block;
+  }
+  nav ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  footer p.copy span {
+    display: none;
+  }
+}

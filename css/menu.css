@@ -1,0 +1,82 @@
+@import url(common.css);
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main div.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* セクションの書式余白 */
+main article section {
+  /* 540px/1110px=48.6 */
+  flex-basis: 48.6%;
+  margin-bottom: 67px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 2px solid #4a4a4a;
+}
+
+/* セクション料理画像 */
+main article section p.foods {
+  margin-top: 44px;
+  margin-bottom: 22px;
+}
+
+/* セクションタイトルと背景 */
+main article section h2 {
+  color: #54410c;
+  font-size: 24px;
+  font-weight: bold;
+  background-image: url(../img/line.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  /* background-color: aqua; */
+  height: 84px;
+}
+
+/* 料理の説明 */
+main article section .text {
+  line-height: 28px;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+
+/* 値段 */
+main article section p.yen {
+  color: #54410c;
+  font-size: 24px;
+  margin-bottom: 19px;
+}
+
+/* ボタン書式 */
+main article section p.link a {
+  background-color: #6b5311;
+  color: #fffdf8;
+  padding: 16.5px 0;
+  /* display: inline-block; */
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+  margin-bottom: 44px;
+}
+
+/* ホバー */
+main article section p.link a:hover {
+  opacity: 0.7;
+}
+
+/* レスポンシブ */
+@media (max-width: 991px) {
+  main div.list {
+    display: block;
+  }
+}

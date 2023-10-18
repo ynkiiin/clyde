@@ -1,0 +1,154 @@
+body {
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fffdf8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  background-color: #fff;
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+header h1 {
+  background-color: #fffdf8;
+  text-align: center;
+  padding: 28px;
+  margin-bottom: 28px;
+}
+/* メニュー */
+nav {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #6a6a6a;
+  border-bottom: 2px solid #6a6a6a;
+  margin-bottom: 28px;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+/* メニュー項目書式 */
+nav li {
+  display: inline;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/* メニューホバー */
+nav li a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+/* ホームの書式 */
+nav li.active a {
+  font-weight: bold;
+}
+p.visual {
+  padding-bottom: 67px;
+}
+main {
+  padding-bottom: 77px;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+main section {
+  margin-bottom: 67px;
+}
+main section ul.rogo {
+  padding-bottom: 67px;
+}
+
+/* メニュー　隣との間30ｐｘ */
+main section ul.rogo li {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+main section h2 {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 28px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-weight: bold;
+  border-top: 2px solid #868686;
+  border-bottom: 2px solid #868686;
+  margin-bottom: 50px;
+}
+
+main section p {
+  line-height: 35px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-bottom: 3px solid #000;
+  padding-bottom: 53px;
+}
+main section ul.event {
+  border-bottom: 3px solid #000;
+}
+
+main section ul.event li {
+  padding-bottom: 53px;
+}
+main aside p a:hover {
+  opacity: 0.7;
+}
+
+footer {
+  background: #322707;
+  padding-top: 42px;
+}
+
+footer section {
+  background: #5f4e1c;
+  text-align: center;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+footer section p {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+footer p.theclyde {
+  padding-top: 30px;
+}
+
+footer address {
+  color: #fffdf8;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+footer p.copy {
+  background: #000;
+  color: #fffdf8;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
